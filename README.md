@@ -5,3 +5,6 @@ This repo contains script for Drone control from python program and perform basi
   1) dronekit
   2) pymavlink
   3) mavproxy
+  4) arparse
+  
+  Install using pip.
