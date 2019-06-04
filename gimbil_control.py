@@ -1,12 +1,7 @@
 import time
 from dronekit import connect, VehicleMode, LocationGlobalRelative, Command, LocationGlobal
 from pymavlink import mavutil
-
-#- Importing Tkinter: sudo apt-get install python-tk
-# import Tinker as tk
 import argparse
-
-import sys,tty,termios
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--connect', default='/dev/ttyUSB0')
